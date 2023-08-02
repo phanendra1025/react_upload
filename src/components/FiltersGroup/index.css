@@ -1,0 +1,26 @@
+.employment-types {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 19px;
+  font-weight: 450;
+}
+.filters-list {
+  list-style: none;
+  padding-left: 0px;
+}
+.employment-filter-item {
+  margin-bottom: 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.check-boxes {
+  width: 15px;
+  height: 15px;
+}
+.check-box-labels {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  margin-left: 8px;
+  font-size: 13px;
+}

@@ -1,0 +1,111 @@
+@media screen and (max-width: 576px) {
+  .similar-job-card-link-item {
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .similar-job-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #272727;
+    width: 100%;
+    border-radius: 15px;
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .similar-job-card-link-item {
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 30px;
+  }
+  .similar-job-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #272727;
+    width: 350px;
+    height: 450px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 20px;
+  }
+}
+
+.similar-job-card-top-section {
+  display: flex;
+  align-items: center;
+}
+.similar-job-compony-logo {
+  width: 60px;
+  height: 60px;
+}
+.similar-job-title-container {
+  margin-left: 13px;
+  margin-bottom: 10px;
+}
+.similar-job-title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 450;
+}
+.similar-job-details-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.similar-job-rating-container {
+  display: flex;
+  align-items: flex-start;
+  margin: 0px;
+}
+.similar-job-rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin: 0px;
+  margin-left: 5px;
+}
+.similar-job-location-container {
+  display: flex;
+  align-items: center;
+}
+.similar-job-location {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  margin: 0px;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-right: 20px;
+}
+.similar-job-employment-type {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  margin-left: 10px;
+  font-size: 14px;
+}
+.similar-job-location-and-employment-container {
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.similar-job-description-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 480;
+  margin-top: 20px;
+}
+.similar-job-description {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 13;
+  line-height: 1.5;
+}
